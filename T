@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAE ETU7 - Entreprise</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            text-align: center;
+            max-width: 600px;
+        }
+        h1 {
+            color: #667eea;
+            margin-bottom: 20px;
+        }
+        .info {
+            background: #f0f0f0;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        .info p {
+            margin: 10px 0;
+            color: #333;
+        }
+        .badge {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            margin: 5px;
+            font-size: 14px;
+        }
+        .footer {
+            margin-top: 30px;
+            color: #666;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🌐 Bienvenue sur le serveur web SAE</h1>
+        <p style="font-size: 18px; color: #666;">Infrastructure réseau - Étudiant 7</p>
+        
+        <div class="info">
+            <p><strong>Domaine :</strong> etu7.sae</p>
+            <p><strong>Serveur :</strong> SAE3-CYBER3-Etu7-SW19</p>
+            <p><strong>IP :</strong> 192.168.108.30</p>
+        </div>
+
+        <div>
+            <span class="badge">Windows Server 2019</span>
+            <span class="badge">IIS 10</span>
+            <span class="badge">Active Directory</span>
+        </div>
+
+        <div class="footer">
+            <p>SAE3.CYBER.03 - Projet Infrastructure Réseau</p>
+            <p>© 2024 - Département Réseaux & Télécommunications</p>
+        </div>
+    </div>
+</body>
+</html>
